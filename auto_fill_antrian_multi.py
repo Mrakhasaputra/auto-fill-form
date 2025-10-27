@@ -18,15 +18,15 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # ---------------- CONFIG ----------------
-TARGET_URL = "https://www.antrijktjd5.com"
+TARGET_URL = "https://www.antributikbekasi.com/"
 
 USERS = [
     # {"name": "DEWI AGUSTINA SUSANTI", "ktp": "3271025208960006", "phone": "089608678980"},
     # {"name": "BERLINTAN JAYANTI", "ktp": "3201016003910011", "phone": "082299560210"},
     # {"name": "TUTUT WAHYUNI", "ktp": "3275075403790021", "phone": "081388344936"},
-    # {"name": "ALIVIA RISYA PUTRI MAULIDINA", "ktp": "3275074206010017", "phone": "085697012722"},
-    # {"name": "NURSIH", "ktp": "3275074910970009", "phone": "081385774147 "},
-    # {"name": "YENI MARLINA", "ktp": "0375074105880010", "phone": "082111516100"},
+    {"name": "TIARA", "ktp": "3275076408050001", "phone": "085945830366"},
+    {"name": "MUHAMMAD FAIZ RAMADHAN", "ktp": "3171051611030001", "phone": "08111965944"},
+    {"name": "YENI MARLINA", "ktp": "0375074105880010", "phone": "082111516100"},
 ]
 
 HEADLESS = False   # HARUS False agar browser terlihat
